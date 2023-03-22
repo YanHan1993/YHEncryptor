@@ -1,0 +1,6 @@
+framework module Pods_YHEncryptor_Example {
+  umbrella header "Pods-YHEncryptor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
