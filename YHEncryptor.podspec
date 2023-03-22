@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHEncryptor'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = '加密分类组件'
 
 # This description is used to generate tags and improve search results.
