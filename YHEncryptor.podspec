@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 组件提供了常用的加密分类，如MD5,AES,RSA,SM4
                        DESC
 
-  s.homepage         = 'https://github.com/闫寒/YHEncryptor'
+  s.homepage         = 'http://172.16.30.123:8081/yanhan/YHEncryptor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '闫寒' => '617584527@qq.com' }
