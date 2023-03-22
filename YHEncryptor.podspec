@@ -52,4 +52,7 @@ Pod::Spec.new do |s|
   
   # 依赖关系，该项目所依赖的其他，当在加载的时候也会一块把相关的依赖的库加载下来，如果有多个需要填写多个
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 如果项目已经设置 pod_target_xcconfig，添加到已有值的后面。此处解决了模拟器和真机包合并问题
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
 end
