@@ -1,8 +1,8 @@
 {
   "name": "YHEncryptor",
-  "version": "0.1.0",
-  "summary": "A short description of YHEncryptor.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "加密分类组件",
+  "description": "组件提供了常用的加密分类，如MD5,AES,RSA,SM4",
   "homepage": "https://github.com/闫寒/YHEncryptor",
   "license": {
     "type": "MIT",
@@ -12,11 +12,18 @@
     "闫寒": "617584527@qq.com"
   },
   "source": {
-    "git": "https://github.com/闫寒/YHEncryptor.git",
-    "tag": "0.1.0"
+    "git": "http://172.16.30.123:8081/yanhan/YHEncryptor.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "YHEncryptor/Classes/**/*"
+  "source_files": "YHEncryptor/Classes/**/*",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "ios": {
+    "vendored_frameworks": "YHEncryptor/**/*.framework"
+  },
+  "public_header_files": "YHEncryptor/Classes/**/*.h"
 }

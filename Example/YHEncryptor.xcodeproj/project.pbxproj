@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0063383248823852190685B8 /* Pods-YHEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHEncryptor_Example.debug.xcconfig"; path = "Target Support Files/Pods-YHEncryptor_Example/Pods-YHEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		04ACE31B3E78EB806BE0E634 /* Pods-YHEncryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHEncryptor_Tests.release.xcconfig"; path = "Target Support Files/Pods-YHEncryptor_Tests/Pods-YHEncryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		066FDAA7EE2EC00A02BB9A4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		066FDAA7EE2EC00A02BB9A4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YHEncryptor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHEncryptor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		99F859156934D847A8513071 /* Pods-YHEncryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHEncryptor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YHEncryptor_Tests/Pods-YHEncryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C56B14274E2EA4F79F4E09CE /* Pods_YHEncryptor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHEncryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70384A6A057C9C28A5EF280 /* Pods_YHEncryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHEncryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6189E41E9B3640587A0DEB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E8D1BD924CF54E19AD16E5A8 /* YHEncryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHEncryptor.podspec; path = ../YHEncryptor.podspec; sourceTree = "<group>"; };
+		E6189E41E9B3640587A0DEB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E8D1BD924CF54E19AD16E5A8 /* YHEncryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHEncryptor.podspec; path = ../YHEncryptor.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				99F859156934D847A8513071 /* Pods-YHEncryptor_Tests.debug.xcconfig */,
 				04ACE31B3E78EB806BE0E634 /* Pods-YHEncryptor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,6 +498,12 @@
 				GCC_PREFIX_HEADER = "YHEncryptor/YHEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "YHEncryptor/YHEncryptor-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"YHEncryptor\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -514,6 +520,12 @@
 				GCC_PREFIX_HEADER = "YHEncryptor/YHEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "YHEncryptor/YHEncryptor-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"YHEncryptor\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "NSString+YHEncryptorAES.h"
+#import "NSString+YHEncryptorMD5.h"
+#import "NSString+YHEncryptorRSA.h"
+#import "NSString+YHEncryptorSM4.h"
+#import "YHEncryptor.h"
 
 FOUNDATION_EXPORT double YHEncryptorVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHEncryptorVersionString[];

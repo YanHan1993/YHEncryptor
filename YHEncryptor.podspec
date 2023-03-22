@@ -38,14 +38,14 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' } #002号 坑
   
   # framework不用于hm 不是文件，是一个文件夹，而且是一个特殊的文件夹。想要Framework正常使用，必须用到这句
-  s.ios.vendored_frameworks = 'YHEncryptor.framework'
+  s.ios.vendored_frameworks = 'YHEncryptor/**/*.framework'
   
   # s.resource_bundles = {
   #   'YHEncryptor' => ['YHEncryptor/Assets/*.png']
   # }
 
   # 公开头文件地址
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'YHEncryptor/Classes/**/*.h'
   
   # 所需的系统framework，多个用逗号隔开，不需要后缀名
   # s.frameworks = 'UIKit', 'MapKit'
