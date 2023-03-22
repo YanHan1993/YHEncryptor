@@ -20,7 +20,7 @@
   },
   "source_files": "YHEncryptor/Classes/**/*",
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC"
+    "VALID_ARCHS": "arm64"
   },
   "ios": {
     "vendored_frameworks": "YHEncryptor/**/*.framework"
