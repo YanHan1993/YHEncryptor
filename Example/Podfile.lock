@@ -1,5 +1,5 @@
 PODS:
-  - YHEncryptor (0.5.1)
+  - YHEncryptor (0.5.2)
 
 DEPENDENCIES:
   - YHEncryptor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YHEncryptor: dcd1bd27593e5a935fdce2fe3ba74deb149996f2
+  YHEncryptor: 24f2556905f1efad99c78aa81a3a96cee5f74616
 
 PODFILE CHECKSUM: ffb28bf2a4fafe0646a98e023612eb336357354c
 
