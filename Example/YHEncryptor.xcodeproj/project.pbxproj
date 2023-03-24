@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				06AFC45EAC9151659A4CCB9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,24 +290,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06AFC45EAC9151659A4CCB9C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YHEncryptor_Example/Pods-YHEncryptor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YHEncryptor/YHEncryptor.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHEncryptor.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHEncryptor_Example/Pods-YHEncryptor_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7C5905816993297D3D034A8B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
