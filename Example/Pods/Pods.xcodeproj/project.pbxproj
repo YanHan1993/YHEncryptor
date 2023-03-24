@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0B961ABE7A7BC0B0A7E63ADB05FDE53F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0C2E4AC50EB52DE3F383D56DC10B3977 /* YHEncryptor-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 658AC6DCD1C257404CB588FA026936E0 /* YHEncryptor-Info.plist */; };
 		13DBA4A4BC2707CE33268B1F551F1C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		14BE8BD084163FACEC18B7AE647FD680 /* NSString+YHEncryptorAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D791406FE647C41337F242E1032244C /* NSString+YHEncryptorAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC136D0FAA03589DF9BEFE62505B329 /* YHEncryptor-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 5AB642BE4C40835F854800C9A95A400D /* YHEncryptor-Info.plist */; };
-		629BED493FD943CA8D61A155C0153F54 /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C7973D23AA4167092B982DC7712CD /* CodeRequirements-1 */; };
+		14BE8BD084163FACEC18B7AE647FD680 /* NSString+YHEncryptorAES.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B5AC7F899F65564A4336C418568113 /* NSString+YHEncryptorAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		476F4CD48543850D3AF52C71A752C387 /* YHEncryptor in Sources */ = {isa = PBXBuildFile; fileRef = 6A71F43DD22F1C5CA45D6FDD1839686B /* YHEncryptor */; };
+		629BED493FD943CA8D61A155C0153F54 /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 952BC836F66113854745E6AADB5765FB /* CodeRequirements-1 */; };
 		67E89018B216A295F8132619BD895689 /* Pods-YHEncryptor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9402EF225D5C3E65D36272B9FCD409 /* Pods-YHEncryptor_Tests-dummy.m */; };
-		766392EF0EA536D2358272C2A01D1D1C /* YHEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 556424CE12C6A94C47C99A7110FA14FD /* YHEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		779E79EF2C82CAB651E5C681EA207D80 /* YHEncryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0254D4F4A19E9D58DBC2DD2C048475 /* YHEncryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A70A186DBB150BCF1B17CE8426C61D9 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 093A76BB296ED59FD67860E8137845B7 /* CodeResources */; };
-		98252080FEC3B48B23D9FBDE3033253A /* NSString+YHEncryptorSM4.h in Headers */ = {isa = PBXBuildFile; fileRef = 837AA644613146EFE914A34150F99885 /* NSString+YHEncryptorSM4.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D856579D1D454A1E0320C6FA17CAE96 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = E358516BC8E623BA496B85F606ECEAA5 /* CodeRequirements */; };
-		9FC026EAD51375B6E55E2A6E60ACE025 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = C488D8BDDAEBDA37E6FC5D147840740D /* CodeDirectory */; };
-		A0431756A0CB7B5A651BEB76287E2FCE /* NSString+YHEncryptorRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 371D48AE859FEF2D8C11DABFDDA8D74E /* NSString+YHEncryptorRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766392EF0EA536D2358272C2A01D1D1C /* YHEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA859D068614865EEC282141CB6F8B37 /* YHEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		779E79EF2C82CAB651E5C681EA207D80 /* YHEncryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0772F6A56195DEEC8F8B39B7B6151FDF /* YHEncryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70A186DBB150BCF1B17CE8426C61D9 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 59E4DEF46A7C34B63C61282C301E30EB /* CodeResources */; };
+		98252080FEC3B48B23D9FBDE3033253A /* NSString+YHEncryptorSM4.h in Headers */ = {isa = PBXBuildFile; fileRef = 051A150C554EC4937182FB1CDDE3B67E /* NSString+YHEncryptorSM4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D856579D1D454A1E0320C6FA17CAE96 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 35A58A59B528830CC9344619F417A8D3 /* CodeRequirements */; };
+		9FC026EAD51375B6E55E2A6E60ACE025 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 73DE9216DE5A1E5E0D7A0E5D21117659 /* CodeDirectory */; };
+		A0431756A0CB7B5A651BEB76287E2FCE /* NSString+YHEncryptorRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E518A5C437DC5F490155C7482F046C9 /* NSString+YHEncryptorRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A82D737DAD7A78E4DA13F5B0E095CB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A846A5A4EFCAD25E6FE01EA6E72CFC85 /* YHEncryptor in Sources */ = {isa = PBXBuildFile; fileRef = 08F124F1685CF2E41C7311772AA4351B /* YHEncryptor */; };
 		BB5EDB8A363ACE42EDB4E1C6282B3D65 /* Pods-YHEncryptor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA60E3BFF9EDD03DCF1312EA733135 /* Pods-YHEncryptor_Example-dummy.m */; };
-		D4A98107CAD3528061D14948B334B4DF /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = A8B49CE0158EF673A40AE45FF4191402 /* module.modulemap */; };
+		D4A98107CAD3528061D14948B334B4DF /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = FC66D0DB2CA91CDF70A865FAEE68E972 /* module.modulemap */; };
 		D81A111B696150EC4F97D82EE577B862 /* Pods-YHEncryptor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315F073132DCC799CE06D4509504318A /* Pods-YHEncryptor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E356E47E1E1D7CB617E15BC09ACE6F8C /* YHEncryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88790848111166D2547C0B6D9EB894 /* YHEncryptor-dummy.m */; };
+		E356E47E1E1D7CB617E15BC09ACE6F8C /* YHEncryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B728A5D0A355D909CB7D3EB7CC3E152 /* YHEncryptor-dummy.m */; };
 		E39CB70DB2A00C05B41546DDB90E691D /* Pods-YHEncryptor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A16ACE8470AAF280E5D58AE8111AB3FE /* Pods-YHEncryptor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDC93B2C48158CCF03B2CABDEE949BFB /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EAC3D065B498E979CCA8B3F417991 /* CodeSignature */; };
-		F99CDC4B9002D56A4DCBE2F4568F1D30 /* NSString+YHEncryptorMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C02638510CA58E3BA441D89F1B24EF0 /* NSString+YHEncryptorMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC93B2C48158CCF03B2CABDEE949BFB /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 4954E4C77EDB65C3B9D32D25E9B1915D /* CodeSignature */; };
+		F99CDC4B9002D56A4DCBE2F4568F1D30 /* NSString+YHEncryptorMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAC7E64F709939E56021BF8266AFC5F /* NSString+YHEncryptorMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,51 +50,51 @@
 
 /* Begin PBXFileReference section */
 		0265EFCBFBF5C827CF863919FE6E4874 /* Pods-YHEncryptor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		062E3CB71D7E8BC15FC314E21E82E3FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		02F85B6921812AB7B8C03AAA395D5535 /* YHEncryptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHEncryptor.release.xcconfig; sourceTree = "<group>"; };
+		051A150C554EC4937182FB1CDDE3B67E /* NSString+YHEncryptorSM4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorSM4.h"; sourceTree = "<group>"; };
+		0772F6A56195DEEC8F8B39B7B6151FDF /* YHEncryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHEncryptor-umbrella.h"; sourceTree = "<group>"; };
 		0880FDC3BAAEB598F3070426209B5B07 /* Pods-YHEncryptor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHEncryptor_Tests.modulemap"; sourceTree = "<group>"; };
-		08F124F1685CF2E41C7311772AA4351B /* YHEncryptor */ = {isa = PBXFileReference; includeInIndex = 1; name = YHEncryptor; path = YHEncryptor/Classes/YHEncryptor.framework/YHEncryptor; sourceTree = "<group>"; };
-		093A76BB296ED59FD67860E8137845B7 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
-		17676EB398F7E9CDDE2797CA6630F76E /* YHEncryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHEncryptor-Info.plist"; sourceTree = "<group>"; };
-		1C02638510CA58E3BA441D89F1B24EF0 /* NSString+YHEncryptorMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorMD5.h"; sourceTree = "<group>"; };
+		0B728A5D0A355D909CB7D3EB7CC3E152 /* YHEncryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHEncryptor-dummy.m"; sourceTree = "<group>"; };
+		114CF5E833162CC032404B80AADDE00E /* YHEncryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHEncryptor-prefix.pch"; sourceTree = "<group>"; };
 		216F8191E8499C17C7144F7E4A07A91C /* Pods-YHEncryptor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2440490500A890A03C10AFE73C70946C /* Pods-YHEncryptor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-Info.plist"; sourceTree = "<group>"; };
-		2C4F480CFEBE0F78B6391902EFC9E42A /* YHEncryptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHEncryptor.debug.xcconfig; sourceTree = "<group>"; };
+		2BAA8427944DA55A7BFBDA51E77360B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		315F073132DCC799CE06D4509504318A /* Pods-YHEncryptor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Tests-umbrella.h"; sourceTree = "<group>"; };
-		371D48AE859FEF2D8C11DABFDDA8D74E /* NSString+YHEncryptorRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorRSA.h"; sourceTree = "<group>"; };
+		35A58A59B528830CC9344619F417A8D3 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		4954E4C77EDB65C3B9D32D25E9B1915D /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
 		4B7E45D6EB6EAC244A451E8F3356AF4C /* Pods-YHEncryptor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHEncryptor_Example.modulemap"; sourceTree = "<group>"; };
 		535FD4CC9CAAB50EA86B31462B0BE414 /* Pods-YHEncryptor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Example"; path = Pods_YHEncryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		556424CE12C6A94C47C99A7110FA14FD /* YHEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHEncryptor.h; sourceTree = "<group>"; };
 		577C305826C6E7B013861F452322E774 /* Pods-YHEncryptor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Example-Info.plist"; sourceTree = "<group>"; };
-		5AB642BE4C40835F854800C9A95A400D /* YHEncryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "YHEncryptor-Info.plist"; path = "YHEncryptor/Classes/YHEncryptor.framework/YHEncryptor-Info.plist"; sourceTree = "<group>"; };
+		59E4DEF46A7C34B63C61282C301E30EB /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		5C01CC846655AB3475CD6A692644C4FD /* Pods-YHEncryptor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Tests"; path = Pods_YHEncryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D4EAC3D065B498E979CCA8B3F417991 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		5EAC7E64F709939E56021BF8266AFC5F /* NSString+YHEncryptorMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorMD5.h"; sourceTree = "<group>"; };
 		61FCEDB0C35FB3FDED9C5E9FFA312853 /* Pods-YHEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		658AC6DCD1C257404CB588FA026936E0 /* YHEncryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "YHEncryptor-Info.plist"; path = "YHEncryptor/YHEncryptor.framework/YHEncryptor-Info.plist"; sourceTree = "<group>"; };
+		6A71F43DD22F1C5CA45D6FDD1839686B /* YHEncryptor */ = {isa = PBXFileReference; includeInIndex = 1; name = YHEncryptor; path = YHEncryptor/YHEncryptor.framework/YHEncryptor; sourceTree = "<group>"; };
 		6AFA60E3BFF9EDD03DCF1312EA733135 /* Pods-YHEncryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Example-dummy.m"; sourceTree = "<group>"; };
-		6D791406FE647C41337F242E1032244C /* NSString+YHEncryptorAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorAES.h"; sourceTree = "<group>"; };
-		6E6C7973D23AA4167092B982DC7712CD /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		70AB5AF95D293B933695086A2A2B54CE /* YHEncryptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHEncryptor.debug.xcconfig; sourceTree = "<group>"; };
+		72F215CB85A8726463F42F97B10C0737 /* YHEncryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHEncryptor-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		837AA644613146EFE914A34150F99885 /* NSString+YHEncryptorSM4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorSM4.h"; sourceTree = "<group>"; };
+		73DE9216DE5A1E5E0D7A0E5D21117659 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
 		8A71E172D007411CF082452862CE7D6F /* Pods-YHEncryptor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHEncryptor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B0254D4F4A19E9D58DBC2DD2C048475 /* YHEncryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHEncryptor-umbrella.h"; sourceTree = "<group>"; };
-		9D6A08DC5AB6623EDF63023404E3504C /* YHEncryptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHEncryptor.release.xcconfig; sourceTree = "<group>"; };
+		8E518A5C437DC5F490155C7482F046C9 /* NSString+YHEncryptorRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorRSA.h"; sourceTree = "<group>"; };
+		952BC836F66113854745E6AADB5765FB /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A004BFD2A01EAC3529949CC62F0B004F /* YHEncryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YHEncryptor.framework; path = YHEncryptor/YHEncryptor.framework; sourceTree = "<group>"; };
 		A16ACE8470AAF280E5D58AE8111AB3FE /* Pods-YHEncryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Example-umbrella.h"; sourceTree = "<group>"; };
-		A8B49CE0158EF673A40AE45FF4191402 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		AAC2901A0C207D481DECA1FC6C152E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A335E742398C189615A7491DBA935A66 /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A886D1E723C22BEAFB341FD14ADA087E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA859D068614865EEC282141CB6F8B37 /* YHEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHEncryptor.h; sourceTree = "<group>"; };
 		AC9402EF225D5C3E65D36272B9FCD409 /* Pods-YHEncryptor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Tests-dummy.m"; sourceTree = "<group>"; };
 		ACEB541D41B55DAFBD73D195D69C4989 /* YHEncryptor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHEncryptor; path = YHEncryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4B7A9DEB882BC5C7BC38488D56E5B /* Pods-YHEncryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AEE10770F2F588585E7AA7BFA08DC384 /* Pods-YHEncryptor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHEncryptor_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B51DAB7D5DD075E1D9CBFE67BE5C4730 /* YHEncryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YHEncryptor.framework; path = YHEncryptor/Classes/YHEncryptor.framework; sourceTree = "<group>"; };
-		BC88790848111166D2547C0B6D9EB894 /* YHEncryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHEncryptor-dummy.m"; sourceTree = "<group>"; };
-		C488D8BDDAEBDA37E6FC5D147840740D /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
-		E358516BC8E623BA496B85F606ECEAA5 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
-		E5678303564C5D017D3F62DFBD14D43D /* YHEncryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHEncryptor-prefix.pch"; sourceTree = "<group>"; };
-		ED3701798E47BC626BF00B763BAB0C56 /* YHEncryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHEncryptor.modulemap; sourceTree = "<group>"; };
+		BA81585EFA607094A124500555024165 /* YHEncryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHEncryptor.modulemap; sourceTree = "<group>"; };
+		C3B5AC7F899F65564A4336C418568113 /* NSString+YHEncryptorAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YHEncryptorAES.h"; sourceTree = "<group>"; };
 		EE40C899A2E3B0A2A99F042726BB4923 /* Pods-YHEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F8B0FE9250AF2B9E9A82D520FA0CD1C4 /* Pods-YHEncryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA4F3951C31570740AF0A62ACBD987E4 /* Pods-YHEncryptor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHEncryptor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FECCCC4CF32825AC3D2F56CAE7A79ACB /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC66D0DB2CA91CDF70A865FAEE68E972 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,39 +125,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		056F88C5CA3FD2D27C3A61D023BFB3D5 /* Headers */ = {
+		05A5D0CE523934CB4648C3497CA91DA8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				6D791406FE647C41337F242E1032244C /* NSString+YHEncryptorAES.h */,
-				1C02638510CA58E3BA441D89F1B24EF0 /* NSString+YHEncryptorMD5.h */,
-				371D48AE859FEF2D8C11DABFDDA8D74E /* NSString+YHEncryptorRSA.h */,
-				837AA644613146EFE914A34150F99885 /* NSString+YHEncryptorSM4.h */,
-				556424CE12C6A94C47C99A7110FA14FD /* YHEncryptor.h */,
-			);
-			name = Headers;
-			path = YHEncryptor/Classes/YHEncryptor.framework/Headers;
-			sourceTree = "<group>";
-		};
-		159E43DEF2F3701FB6FF2BB87237250F /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				A8B49CE0158EF673A40AE45FF4191402 /* module.modulemap */,
+				FC66D0DB2CA91CDF70A865FAEE68E972 /* module.modulemap */,
 			);
 			name = Modules;
-			path = YHEncryptor/Classes/YHEncryptor.framework/Modules;
+			path = YHEncryptor/YHEncryptor.framework/Modules;
 			sourceTree = "<group>";
 		};
-		26CA935D664CBAF48579D5C4762B1961 /* _CodeSignature */ = {
+		236AEB04D540097C87009039B4648CF7 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C488D8BDDAEBDA37E6FC5D147840740D /* CodeDirectory */,
-				E358516BC8E623BA496B85F606ECEAA5 /* CodeRequirements */,
-				6E6C7973D23AA4167092B982DC7712CD /* CodeRequirements-1 */,
-				093A76BB296ED59FD67860E8137845B7 /* CodeResources */,
-				5D4EAC3D065B498E979CCA8B3F417991 /* CodeSignature */,
+				C3B5AC7F899F65564A4336C418568113 /* NSString+YHEncryptorAES.h */,
+				5EAC7E64F709939E56021BF8266AFC5F /* NSString+YHEncryptorMD5.h */,
+				8E518A5C437DC5F490155C7482F046C9 /* NSString+YHEncryptorRSA.h */,
+				051A150C554EC4937182FB1CDDE3B67E /* NSString+YHEncryptorSM4.h */,
+				AA859D068614865EEC282141CB6F8B37 /* YHEncryptor.h */,
 			);
-			name = _CodeSignature;
-			path = YHEncryptor/Classes/YHEncryptor.framework/_CodeSignature;
+			name = Headers;
+			path = YHEncryptor/YHEncryptor.framework/Headers;
+			sourceTree = "<group>";
+		};
+		261B1458ABAE1751DCF873D6EE0F697C /* YHEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				6A71F43DD22F1C5CA45D6FDD1839686B /* YHEncryptor */,
+				658AC6DCD1C257404CB588FA026936E0 /* YHEncryptor-Info.plist */,
+				952FEE8581518A0A99C4C7B0EA82C8A7 /* _CodeSignature */,
+				E0BEEAAEAF1F5ED59ED68741CA20ACD0 /* Frameworks */,
+				236AEB04D540097C87009039B4648CF7 /* Headers */,
+				05A5D0CE523934CB4648C3497CA91DA8 /* Modules */,
+				2CFDD354D3F83D1B3E37F3A6DD642D23 /* Pod */,
+				72D982F07EA70285F15C603D5C7252EB /* Support Files */,
+			);
+			name = YHEncryptor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2CFDD354D3F83D1B3E37F3A6DD642D23 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A886D1E723C22BEAFB341FD14ADA087E /* LICENSE */,
+				2BAA8427944DA55A7BFBDA51E77360B1 /* README.md */,
+				A335E742398C189615A7491DBA935A66 /* YHEncryptor.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		339073979A0892DCDB6674CE5136A74C /* Pods-YHEncryptor_Example */ = {
@@ -175,24 +188,6 @@
 			);
 			name = "Pods-YHEncryptor_Example";
 			path = "Target Support Files/Pods-YHEncryptor_Example";
-			sourceTree = "<group>";
-		};
-		530A6D146243670F7FBE5EE97B158D5D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				062E3CB71D7E8BC15FC314E21E82E3FD /* LICENSE */,
-				AAC2901A0C207D481DECA1FC6C152E47 /* README.md */,
-				FECCCC4CF32825AC3D2F56CAE7A79ACB /* YHEncryptor.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		548D9C317A4E2BC42F15ED5DCB6121BC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B51DAB7D5DD075E1D9CBFE67BE5C4730 /* YHEncryptor.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -213,20 +208,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBAD731DC6E26FB97AD556951851CCF1 /* YHEncryptor */ = {
+		72D982F07EA70285F15C603D5C7252EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				08F124F1685CF2E41C7311772AA4351B /* YHEncryptor */,
-				5AB642BE4C40835F854800C9A95A400D /* YHEncryptor-Info.plist */,
-				26CA935D664CBAF48579D5C4762B1961 /* _CodeSignature */,
-				548D9C317A4E2BC42F15ED5DCB6121BC /* Frameworks */,
-				056F88C5CA3FD2D27C3A61D023BFB3D5 /* Headers */,
-				159E43DEF2F3701FB6FF2BB87237250F /* Modules */,
-				530A6D146243670F7FBE5EE97B158D5D /* Pod */,
-				E7BCCDFA8AF9C3DCA4CBA279B04EA312 /* Support Files */,
+				BA81585EFA607094A124500555024165 /* YHEncryptor.modulemap */,
+				0B728A5D0A355D909CB7D3EB7CC3E152 /* YHEncryptor-dummy.m */,
+				72F215CB85A8726463F42F97B10C0737 /* YHEncryptor-Info.plist */,
+				114CF5E833162CC032404B80AADDE00E /* YHEncryptor-prefix.pch */,
+				0772F6A56195DEEC8F8B39B7B6151FDF /* YHEncryptor-umbrella.h */,
+				70AB5AF95D293B933695086A2A2B54CE /* YHEncryptor.debug.xcconfig */,
+				02F85B6921812AB7B8C03AAA395D5535 /* YHEncryptor.release.xcconfig */,
 			);
-			name = YHEncryptor;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHEncryptor";
+			sourceTree = "<group>";
+		};
+		952FEE8581518A0A99C4C7B0EA82C8A7 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				73DE9216DE5A1E5E0D7A0E5D21117659 /* CodeDirectory */,
+				35A58A59B528830CC9344619F417A8D3 /* CodeRequirements */,
+				952BC836F66113854745E6AADB5765FB /* CodeRequirements-1 */,
+				59E4DEF46A7C34B63C61282C301E30EB /* CodeResources */,
+				4954E4C77EDB65C3B9D32D25E9B1915D /* CodeSignature */,
+			);
+			name = _CodeSignature;
+			path = YHEncryptor/YHEncryptor.framework/_CodeSignature;
 			sourceTree = "<group>";
 		};
 		BFEE06061D7CE290B337C11463E133FE /* Targets Support Files */ = {
@@ -257,7 +264,7 @@
 		C5CEF0AB7D7427000A9AE1F890657FF4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD731DC6E26FB97AD556951851CCF1 /* YHEncryptor */,
+				261B1458ABAE1751DCF873D6EE0F697C /* YHEncryptor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -281,19 +288,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7BCCDFA8AF9C3DCA4CBA279B04EA312 /* Support Files */ = {
+		E0BEEAAEAF1F5ED59ED68741CA20ACD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED3701798E47BC626BF00B763BAB0C56 /* YHEncryptor.modulemap */,
-				BC88790848111166D2547C0B6D9EB894 /* YHEncryptor-dummy.m */,
-				17676EB398F7E9CDDE2797CA6630F76E /* YHEncryptor-Info.plist */,
-				E5678303564C5D017D3F62DFBD14D43D /* YHEncryptor-prefix.pch */,
-				8B0254D4F4A19E9D58DBC2DD2C048475 /* YHEncryptor-umbrella.h */,
-				2C4F480CFEBE0F78B6391902EFC9E42A /* YHEncryptor.debug.xcconfig */,
-				9D6A08DC5AB6623EDF63023404E3504C /* YHEncryptor.release.xcconfig */,
+				A004BFD2A01EAC3529949CC62F0B004F /* YHEncryptor.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHEncryptor";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,9 +467,9 @@
 				8A70A186DBB150BCF1B17CE8426C61D9 /* CodeResources in Sources */,
 				EDC93B2C48158CCF03B2CABDEE949BFB /* CodeSignature in Sources */,
 				D4A98107CAD3528061D14948B334B4DF /* module.modulemap in Sources */,
-				A846A5A4EFCAD25E6FE01EA6E72CFC85 /* YHEncryptor in Sources */,
+				476F4CD48543850D3AF52C71A752C387 /* YHEncryptor in Sources */,
 				E356E47E1E1D7CB617E15BC09ACE6F8C /* YHEncryptor-dummy.m in Sources */,
-				3AC136D0FAA03589DF9BEFE62505B329 /* YHEncryptor-Info.plist in Sources */,
+				0C2E4AC50EB52DE3F383D56DC10B3977 /* YHEncryptor-Info.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +656,7 @@
 		};
 		A953BAE8D8744AFAAED25B1DE92E5EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C4F480CFEBE0F78B6391902EFC9E42A /* YHEncryptor.debug.xcconfig */;
+			baseConfigurationReference = 70AB5AF95D293B933695086A2A2B54CE /* YHEncryptor.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -687,7 +687,7 @@
 		};
 		CC5922F68F0094E4B1E1EE1D72CB54AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D6A08DC5AB6623EDF63023404E3504C /* YHEncryptor.release.xcconfig */;
+			baseConfigurationReference = 02F85B6921812AB7B8C03AAA395D5535 /* YHEncryptor.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
