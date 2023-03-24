@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHEncryptor'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = '加密分类组件 提供MD5,AES,RSA,SM4'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   
   # 必备项，代码源文件地址，如果有多个目录下则用逗号分开,否则"public_header_files"等不可用
-  # 框架被其他工程引入时，会导入YHEncryptor/YHEncryptor/Classes目录下的所有文件
-  s.source_files = 'YHEncryptor/Classes/**/*'
+  # 框架被其他工程引入时，会导入YHEncryptor/Classes目录下的所有文件
+  s.source_files = 'YHEncryptor/Classes/**/*.framework'
   
   # frameworkz中用到了Category，则需要配置此处
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' } #002号 坑
