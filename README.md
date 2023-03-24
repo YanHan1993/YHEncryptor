@@ -42,7 +42,7 @@ pod update
 ```
 
 1.SM4加解密
-```objectivec
+```objc
   /**
  *  使用密钥和初始化向量生成CBC模式的SM4加解密对象
  *
@@ -80,7 +80,7 @@ pod update
 - (nullable NSString *)SM4DecryptWithKey:(nonnull NSString *)secretKey;
 ```
 2.RSA加解密
-```objectivec
+```objc
 
 /// RSA加密
 /// - Parameter publicKey: 加密公钥
@@ -102,7 +102,7 @@ pod update
 ```
 
 3.AES加解密
-```objectivec
+```objc
 
 - (NSString *)AESEncryptWithPassword:(NSString *)password;
 - (NSString *)AESDecryptWithPassword:(NSString *)password;
@@ -114,7 +114,7 @@ pod update
 ```
 
 4.MD5加密
-```objectivec
+```objc
 /// MD5 32位小写
 - (NSString *)MD5EncryptForLower32;
 /// MD5 32位大写
