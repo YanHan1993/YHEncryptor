@@ -7,7 +7,7 @@
 
 ## 作用
 
-+ 便捷的加密工具
++ 便捷的加密工具 提供了常用的加密组件 如SM4 AES RSA MD5
 
 ## 示例
 
@@ -42,7 +42,7 @@ pod update
 ```
 
 1.SM4加解密
-```Object-C
+```objectivec
   /**
  *  使用密钥和初始化向量生成CBC模式的SM4加解密对象
  *
@@ -80,7 +80,7 @@ pod update
 - (nullable NSString *)SM4DecryptWithKey:(nonnull NSString *)secretKey;
 ```
 2.RSA加解密
-```object-c
+```objectivec
 
 /// RSA加密
 /// - Parameter publicKey: 加密公钥
@@ -102,7 +102,7 @@ pod update
 ```
 
 3.AES加解密
-```object-c
+```objectivec
 
 - (NSString *)AESEncryptWithPassword:(NSString *)password;
 - (NSString *)AESDecryptWithPassword:(NSString *)password;
@@ -114,7 +114,7 @@ pod update
 ```
 
 4.MD5加密
-```object-c
+```objectivec
 /// MD5 32位小写
 - (NSString *)MD5EncryptForLower32;
 /// MD5 32位大写
