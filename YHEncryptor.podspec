@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHEncryptor'
-  s.version          = '0.7.0'
+  s.version          = '0.8.0'
   s.summary          = '加密分类组件 提供MD5,AES,RSA,SM4'
 
 # This description is used to generate tags and improve search results.
@@ -33,20 +33,20 @@ Pod::Spec.new do |s|
   
   # 必备项，代码源文件地址，如果有多个目录下则用逗号分开,否则"public_header_files"等不可用
   # 框架被其他工程引入时，会导入YHEncryptor/YHEncryptor/Classes目录下的所有文件
-  s.source_files = 'YHEncryptor/YHEncryptor/Classes/**/*'
+  s.source_files = 'YHEncryptor/Classes/**/*'
   
   # frameworkz中用到了Category，则需要配置此处
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' } #002号 坑
   
   # framework不用于hm 不是文件，是一个文件夹，而且是一个特殊的文件夹。想要Framework正常使用，必须用到这句
-  s.ios.vendored_frameworks = 'YHEncryptor/YHEncryptor/Classes/**/*.framework'
+  s.ios.vendored_frameworks = 'YHEncryptor/Classes/**/*.framework'
   
   # s.resource_bundles = {
-  #   'YHEncryptor' => ['YHEncryptor/YHEncryptor/Classes/Assets/*.png']
+  #   'YHEncryptor' => ['YHEncryptor/Classes/Assets/*.png']
   # }
 
   # 公开头文件地址
-  s.public_header_files = 'YHEncryptor/YHEncryptor/Classes/YHEncryptor.framework/Headers/**/*.h'
+  s.public_header_files = 'YHEncryptor/Classes/YHEncryptor.framework/Headers/**/*.h'
   
   # 所需的系统framework，多个用逗号隔开，不需要后缀名
   # s.frameworks = 'UIKit', 'MapKit'
