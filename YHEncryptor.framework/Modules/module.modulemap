@@ -1,4 +1,4 @@
-framework module YHEncryptor {
+framework module YHEncryptor [system] {
   umbrella header "YHEncryptor.h"
 
   export *
