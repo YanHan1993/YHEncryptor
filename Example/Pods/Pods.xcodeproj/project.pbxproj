@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = YHEncryptor;
-			productName = YHEncryptor;
 		};
 /* End PBXAggregateTarget section */
 
@@ -51,9 +50,10 @@
 		2923A15A589A7548CF4E73F2A49409D5 /* YHEncryptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHEncryptor.debug.xcconfig; sourceTree = "<group>"; };
 		2CACB81FE1E18FF9E5CC83D1310DE7EC /* Pods-YHEncryptor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHEncryptor_Example.modulemap"; sourceTree = "<group>"; };
 		3BFC06B7D499E7635CFDB605A3112A4A /* Pods-YHEncryptor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHEncryptor_Tests.modulemap"; sourceTree = "<group>"; };
+		52AFC983CD4C6AAC979E3408CD9B1EFA /* YHEncryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YHEncryptor.framework; sourceTree = "<group>"; };
 		535FD4CC9CAAB50EA86B31462B0BE414 /* Pods-YHEncryptor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Example"; path = Pods_YHEncryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B906379B62C9A37ED4F3B85181F7BE /* Pods-YHEncryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Example-dummy.m"; sourceTree = "<group>"; };
-		59BF85E57F351C35560EC0C968205F51 /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		59BF85E57F351C35560EC0C968205F51 /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A43DD57E679CBC1400577D243363FBE /* Pods-YHEncryptor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Example-Info.plist"; sourceTree = "<group>"; };
 		5C01CC846655AB3475CD6A692644C4FD /* Pods-YHEncryptor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Tests"; path = Pods_YHEncryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FCD8A8DFA8E39C0267739161A51276 /* Pods-YHEncryptor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHEncryptor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -61,16 +61,15 @@
 		6B9B259AB9FA6EB1E58F5E187943100B /* Pods-YHEncryptor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74AFA2CAEADEA94ED4E4AF31B9BED1CF /* Pods-YHEncryptor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-Info.plist"; sourceTree = "<group>"; };
-		761FB198C9398990FF4B3C0BC6D0DA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		761FB198C9398990FF4B3C0BC6D0DA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93CBE089EB074D5BB02D8A5CBFBEDB5A /* Pods-YHEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D855FBE11794EF7B37B615590506698 /* Pods-YHEncryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A08336909B8EB0BDC5E6278E8FC4F9E9 /* Pods-YHEncryptor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA0CB6D7A6D0AB847AED82523103E8A3 /* Pods-YHEncryptor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2186C1FB3DE284AFCC3CDA9AE2AB642 /* Pods-YHEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C39D921D664DB128C554443E04352846 /* YHEncryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YHEncryptor.framework; path = YHEncryptor/Classes/YHEncryptor.framework; sourceTree = "<group>"; };
 		C406FF88D22A4359EE107440114F9EDD /* Pods-YHEncryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Example-umbrella.h"; sourceTree = "<group>"; };
-		DD1AA65BFE0C25CDA8C85F1D6FE84D00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DD1AA65BFE0C25CDA8C85F1D6FE84D00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E63206F4215B350AD15C1779CB1034B3 /* Pods-YHEncryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,7 +122,7 @@
 		4C2A816EB036B35E4C94C25A9A0F94FB /* YHEncryptor */ = {
 			isa = PBXGroup;
 			children = (
-				BAD5657D5338FC1CADF1892C1E140255 /* Frameworks */,
+				A51320B438DE4EC318D090FC1DFD7AC0 /* Frameworks */,
 				9EB5EDA142CD2871395B827BC19CA148 /* Pod */,
 				327B25A1736AC41087D9128DFA34B437 /* Support Files */,
 			);
@@ -182,10 +181,10 @@
 			path = "Target Support Files/Pods-YHEncryptor_Tests";
 			sourceTree = "<group>";
 		};
-		BAD5657D5338FC1CADF1892C1E140255 /* Frameworks */ = {
+		A51320B438DE4EC318D090FC1DFD7AC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C39D921D664DB128C554443E04352846 /* YHEncryptor.framework */,
+				52AFC983CD4C6AAC979E3408CD9B1EFA /* YHEncryptor.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,21 +425,6 @@
 			};
 			name = Release;
 		};
-		2F9E50FB1D0E056FE75D768A9B93F9DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F2249B2018C12F98D89C6513B70FD0 /* YHEncryptor.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		599FAB21E852D2F6B4BA19BC57F9A4E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E63206F4215B350AD15C1779CB1034B3 /* Pods-YHEncryptor_Tests.release.xcconfig */;
@@ -530,11 +514,25 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		C81B441300026A558B6CFB55F2A72FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2923A15A589A7548CF4E73F2A49409D5 /* YHEncryptor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -602,6 +600,20 @@
 			};
 			name = Debug;
 		};
+		DCED1BE46C97DAFF0A5BFA6D03B58DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F2249B2018C12F98D89C6513B70FD0 /* YHEncryptor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EA82285B77C81A8C2B165F95B520D52F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D855FBE11794EF7B37B615590506698 /* Pods-YHEncryptor_Tests.debug.xcconfig */;
@@ -632,20 +644,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EC077BF5B2E937F27FAC9541627A87AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2923A15A589A7548CF4E73F2A49409D5 /* YHEncryptor.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -682,8 +680,8 @@
 		E4EE62D697FCC5390767DFFDD622291C /* Build configuration list for PBXAggregateTarget "YHEncryptor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC077BF5B2E937F27FAC9541627A87AC /* Debug */,
-				2F9E50FB1D0E056FE75D768A9B93F9DB /* Release */,
+				C81B441300026A558B6CFB55F2A72FBD /* Debug */,
+				DCED1BE46C97DAFF0A5BFA6D03B58DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
