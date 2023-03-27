@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = YHEncryptor;
+			productName = YHEncryptor;
 		};
 /* End PBXAggregateTarget section */
 
@@ -52,7 +53,7 @@
 		3BFC06B7D499E7635CFDB605A3112A4A /* Pods-YHEncryptor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHEncryptor_Tests.modulemap"; sourceTree = "<group>"; };
 		535FD4CC9CAAB50EA86B31462B0BE414 /* Pods-YHEncryptor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Example"; path = Pods_YHEncryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B906379B62C9A37ED4F3B85181F7BE /* Pods-YHEncryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Example-dummy.m"; sourceTree = "<group>"; };
-		59BF85E57F351C35560EC0C968205F51 /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59BF85E57F351C35560EC0C968205F51 /* YHEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YHEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5A43DD57E679CBC1400577D243363FBE /* Pods-YHEncryptor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Example-Info.plist"; sourceTree = "<group>"; };
 		5C01CC846655AB3475CD6A692644C4FD /* Pods-YHEncryptor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHEncryptor_Tests"; path = Pods_YHEncryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FCD8A8DFA8E39C0267739161A51276 /* Pods-YHEncryptor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHEncryptor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -60,16 +61,16 @@
 		6B9B259AB9FA6EB1E58F5E187943100B /* Pods-YHEncryptor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHEncryptor_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74AFA2CAEADEA94ED4E4AF31B9BED1CF /* Pods-YHEncryptor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-Info.plist"; sourceTree = "<group>"; };
-		761FB198C9398990FF4B3C0BC6D0DA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		761FB198C9398990FF4B3C0BC6D0DA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93CBE089EB074D5BB02D8A5CBFBEDB5A /* Pods-YHEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D855FBE11794EF7B37B615590506698 /* Pods-YHEncryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A08336909B8EB0BDC5E6278E8FC4F9E9 /* Pods-YHEncryptor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA0CB6D7A6D0AB847AED82523103E8A3 /* Pods-YHEncryptor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHEncryptor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2186C1FB3DE284AFCC3CDA9AE2AB642 /* Pods-YHEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C39D921D664DB128C554443E04352846 /* YHEncryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YHEncryptor.framework; path = YHEncryptor/Classes/YHEncryptor.framework; sourceTree = "<group>"; };
 		C406FF88D22A4359EE107440114F9EDD /* Pods-YHEncryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHEncryptor_Example-umbrella.h"; sourceTree = "<group>"; };
-		DD1AA65BFE0C25CDA8C85F1D6FE84D00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DD1AA65BFE0C25CDA8C85F1D6FE84D00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E63206F4215B350AD15C1779CB1034B3 /* Pods-YHEncryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHEncryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -529,8 +530,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
