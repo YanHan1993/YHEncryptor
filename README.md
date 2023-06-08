@@ -104,12 +104,56 @@ pod update
 3.AES加解密
 ```objc
 
+/** 
+*  使用密钥生成AES加密对象 
+* 
+*  @param password密钥 
+* 
+*  @return AES加密对象 
+*/
 - (NSString *)AESEncryptWithPassword:(NSString *)password;
+
+/** 
+*  使用密钥生成AES解密对象 
+* 
+*  @param password密钥 
+* 
+*  @return AES解密对象 
+*/
 - (NSString *)AESDecryptWithPassword:(NSString *)password;
 
+/** 
+*  使用密钥+偏移量生成AES加密对象 
+* 
+*  @param password密钥 
+* 
+*  @param iv偏移量
+*
+*  @return AES加密对象 
+*/
 - (NSString *)AESEncryptWithPassword:(NSString *)password iv:(NSString *)iv;
+
+/** 
+*  使用密钥+偏移量生成AES解密对象 
+* 
+*  @param password密钥 
+* 
+*  @param iv偏移量
+*
+*  @return AES解密对象 
+*/
 - (NSString *)AESDecryptWithPassword:(NSString *)password iv:(NSString *)iv;
 
+
+/** 
+*  使用密钥+偏移量生成AES加密对象（Hex十六进制字符串） 
+* 
+*  @param password密钥 
+* 
+*  @param iv偏移量
+*
+*  @return AES加密对象 
+*/
 - (NSString *)AESEncryptHexWithPassword:(NSString *)password iv:(NSString *)iv;
 ```
 
