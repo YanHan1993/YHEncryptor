@@ -1,0 +1,16 @@
+PODS:
+  - YHEncryptor (1.0.3)
+
+DEPENDENCIES:
+  - YHEncryptor (from `../`)
+
+EXTERNAL SOURCES:
+  YHEncryptor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHEncryptor: fa8098964e36dafc69c0d26efd9b3552596b6162
+
+PODFILE CHECKSUM: ffb28bf2a4fafe0646a98e023612eb336357354c
+
+COCOAPODS: 1.11.3

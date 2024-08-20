@@ -1,0 +1,6 @@
+framework module YHEncryptor {
+  umbrella header "YHEncryptor-umbrella.h"
+
+  export *
+  module * { export * }
+}
