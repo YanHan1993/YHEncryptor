@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHEncryptor'
-  s.version          = '1.0.3'
+  s.version          = '1.0.0'
   s.summary          = '加密分类组件 提供MD5,AES,RSA,SM4'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 组件提供了常用的加密分类，如MD5,AES,RSA,SM4
                        DESC
 
-  s.homepage         = 'http://172.16.30.123:8081/yanhan/YHEncryptor'
+  s.homepage         = 'https://github.com/YanHan1993/YHEncryptor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '闫寒' => '617584527@qq.com' }
-  s.source           = { :git => 'http://172.16.30.123:8081/yanhan/YHEncryptor.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YanHan1993/YHEncryptor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 支持的ios最低版本
